@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Movie</title>
+    <!-- link -->
+    <link href="./assets/img/design_img/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-background"></div>
+
+        <nav class="navbar">
+            <div class="grid wide nav-content">
+
+                <a href="/" class="navbar-brand">N-Movie</a>
+            
+                <!-- đang hoàn thiện - phần responsive navbar -->
+                <label for="check" class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-item__link">phim hd hot vietsub</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-item__link">phim lẻ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-item__link">phim bộ</a>
+                    </li>
+
+                    <li class="nav-item nav-item__menu">
+                        <a href="" class="nav-item__link">
+                            quốc gia
+                            <i class="nav-item__link-sort fa-solid fa-sort-down"></i>
+                        </a>
+
+                        <ul class="nav-menu">
+                            <li class="nav-menu-item">
+                                <a href="#">Mỹ</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Hàn Quốc</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Trung Quốc</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Khác</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item nav-item__menu">
+                        <a href="" class="nav-item__link">
+                            thể loại
+                            <i class="nav-item__link-sort fa-solid fa-sort-down"></i>
+                        </a>
+
+                        <ul class="nav-menu">
+                            <li class="nav-menu-item">
+                                <a href="#">Hành Động</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Tâm Lý</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Cổ Trang</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Hài Hước</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Tội phạm</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Khoa Học</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Hoạt Hình</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">Kinh Dzị</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#">18+</a>
+                            </li>
+                        </ul>
+                    </li>
+                </label>
+
+                <input type="checkbox" id="check" class="click-menu">
+                <label for="check" class="icon">
+                    <i class="btn-menu fa-solid fa-bars" id="menu-icon"></i>
+                </label>
+        </nav>
+
+        <div class="middle">
+            <h1 class="middle__present" style="color: var(--primary-color);" class="">Thế Giới Phim HD Vietsub</h1>
+            <p class="middle__quote" style="color: var(--white-color);">
+                "Từ khóa nào khiến bạn vui?
+                <br>
+                Bộ phim nào cho bạn cảm hứng?"
+            </p>
+            <input class="middle__search" type="text" placeholder="Tìm Kiếm Phim...">
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <div class="container__wrap">
+            <div class="type">
+                <h1 class="type__title">Phim Hot</h1>
+                <p class="type__description">Những bộ phim đang được quan tâm nhiều nhất</p>
+                <hr class="type__line"></hr>
+            </div>
+
+            <div class="grid wide">
+                <div class="row">
+
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/thor_2022.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Thor</h3>
+                            <p class="film__year">Love And Thunder (2022)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/transformers_2023.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Transformers</h3>
+                            <p class="film__year">Rise of The Beasts (2023)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/spiderman_2022.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Spider Man</h3>
+                            <p class="film__year">No Way Home (2022)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/avatar_2023.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Avatar</h3>
+                            <p class="film__year">The Way Of Water (2023)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/365days_2022.webp" alt="">
+                            </a>
+                            <h3 class="film__name">365 Days</h3>
+                            <p class="film__year">This Day (2022)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/365days_2020.webp" alt="">
+                            </a>
+                            <h3 class="film__name">365 Days</h3>
+                            <p class="film__year">(2020)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/avengers_2019.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Avengers</h3>
+                            <p class="film__year">(2019)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/blackpanther_2022.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Black Panther</h3>
+                            <p class="film__year">(2022)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/titanic_1997.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Titanic</h3>
+                            <p class="film__year">(1997)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/fastandfurious_2023.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Fast & Furious</h3>
+                            <p class="film__year">X (2023)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="btn more">Xem Thêm</button>
+        </div>
+
+        <div class="container__wrap">
+            <div class="type">
+                <h1 class="type__title">Mới Cập Nhật</h1>
+                <p class="type__description">Được thêm vào gần đây...</p>
+                <hr class="type__line"></hr>
+            </div>
+
+            <div class="grid wide">
+                <div class="row">
+
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/guardiangalaxy_2023.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Guardian of the Galaxy</h3>
+                            <p class="film__year">Vol. 3 (2023)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/johnwick_2023.webp" alt="">
+                            </a>
+                            <h3 class="film__name">John Wick</h3>
+                            <p class="film__year">Chapter 4 (2023)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/wednesday_2022.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Wednesday</h3>
+                            <p class="film__year">(2022)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/avatar_2023.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Smile</h3>
+                            <p class="film__year">(2022)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/blackadam_2022.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Black Adam</h3>
+                            <p class="film__year">(2022)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/ironman_2013.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Iron Man</h3>
+                            <p class="film__year">(2013)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/fiftyshades_2015.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Fifty Shades</h3>
+                            <p class="film__year">Grey (2015)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/insidious_2023.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Insidious</h3>
+                            <p class="film__year">(2023)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/venom_2021.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Venom</h3>
+                            <p class="film__year">Let There Be Carnage (2021)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="film">
+                            <a href="#" class="film__img">
+                                <img class="film__img-link" src="assets/img/film_avt/strangerthings_2022.webp" alt="">
+                            </a>
+                            <h3 class="film__name">Stranger Things</h3>
+                            <p class="film__year">Season 4 (2022)</p>
+                            <button class="btn watch">Xem Phim</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="btn more">Xem Thêm</button>
+        </div>
+
+    </div>
+
+    <footer class="copyright">THNDEV © 2023</footer>
+</body>
+</html>
