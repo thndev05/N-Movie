@@ -382,7 +382,14 @@ nav {
     }
     .middle__search {
         width: 400px;
-        height: 32  px;
+        height: 32px;
+    }
+}
+
+@media (max-width: 450px) {
+    .middle__search {
+        width: 350px;
+        height: 32px;
     }
 }
 
