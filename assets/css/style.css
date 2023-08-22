@@ -26,7 +26,6 @@ body {
     background-color: var(--background-color);
     color: var(--white-color);
     font-family: 'Kodchasan', sans-serif, 'Roboto';
-    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
