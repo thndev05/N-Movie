@@ -220,6 +220,7 @@ nav {
     }
     .navbar-brand {
         margin-left: 0;
+        -webkit-tap-highlight-color: transparent;
     }
     
 
@@ -244,6 +245,7 @@ nav {
         border-radius: 3px;
         color: #BDC2C2;
         list-style: none;
+        -webkit-tap-highlight-color: transparent;
     }
     .btn-menu {
         border: 1px solid #BDC2C2;
