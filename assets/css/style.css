@@ -222,17 +222,16 @@ nav {
         margin-left: 0;
         -webkit-tap-highlight-color: transparent;
     }
-    
-
     .nav-list {
-        position: absolute;
-        z-index: 1;
+        position: fixed;
         top: 100%;
         left: 0;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.5);
-        height: 18rem;
-        transform: translateY(-150%);
+        height: 26rem;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .click-menu:checked ~ .nav-list {
@@ -245,7 +244,7 @@ nav {
         border-radius: 3px;
         color: #BDC2C2;
         list-style: none;
-        -webkit-tap-highlight-color: transparent;
+        -webkit-tap-highlight-color: transparent; 
     }
     .btn-menu {
         border: 1px solid #BDC2C2;
@@ -253,14 +252,10 @@ nav {
         width: 50px;
     }
 
-    #check:checked~.icon #menu-icon {
+    /*     #check:checked~.icon #menu-icon {
         display: block;
-    }
-
-    .nav-list {
-        display: block;
-        
-    }
+    } */
+    
     .nav-item{
         margin: 25px 0;
         
