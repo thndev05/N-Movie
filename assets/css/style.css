@@ -82,6 +82,7 @@ nav {
     list-style: none;
     text-decoration: none;
     transition: 0.4s;
+    margin-left: 100px;
 }
 
 .navbar-brand:hover {
@@ -298,6 +299,7 @@ nav {
     left: 50%;
     top: 60%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .middle__present {
