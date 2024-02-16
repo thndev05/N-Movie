@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0/css/all.min.css">
 </head>
 
@@ -19,20 +20,20 @@
         <nav class="navbar">
             <div class="grid wide nav-content">
 
-                <a href="https://thn2204.github.io/N-Movie/" class="navbar-brand">N-Movie</a>
+                <a href="/" class="navbar-brand">N-Movie</a>
             
                 <!-- đang hoàn thiện - phần responsive navbar -->
-                <label for="check" class="nav-list">
+                <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#" class="nav-item__link">phim hd hot vietsub</a>
+                        <a href="#hot-movie" class="nav-item__link">phim hd hot vietsub</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-item__link">phim lẻ</a>
+                        <a href="#phimmoi" class="nav-item__link">phim moi</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-item__link">phim bộ</a>
+                        <a href="" class="nav-item__link">phim bộ</a>
                     </li>
 
                     <li class="nav-item nav-item__menu">
@@ -43,16 +44,16 @@
 
                         <ul class="nav-menu">
                             <li class="nav-menu-item">
-                                <a href="#">Mỹ</a>
+                                <a href="">Mỹ</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Hàn Quốc</a>
+                                <a href="">Hàn Quốc</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Trung Quốc</a>
+                                <a href="">Trung Quốc</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Khác</a>
+                                <a href="">Khác</a>
                             </li>
                         </ul>
                     </li>
@@ -65,38 +66,38 @@
 
                         <ul class="nav-menu">
                             <li class="nav-menu-item">
-                                <a href="#">Hành Động</a>
+                                <a href="">Hành Động</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Tâm Lý</a>
+                                <a href="">Tâm Lý</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Cổ Trang</a>
+                                <a href="">Cổ Trang</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Hài Hước</a>
+                                <a href="">Hài Hước</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Tội phạm</a>
+                                <a href="">Tội phạm</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Khoa Học</a>
+                                <a href="">Khoa Học</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Hoạt Hình</a>
+                                <a href="">Hoạt Hình</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">Kinh Dzị</a>
+                                <a href="">Kinh Dzị</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="#">18+</a>
+                                <a href="">18+</a>
                             </li>
                         </ul>
                     </li>
-                </label>
+                </ul>
 
-                <input type="checkbox" hidden id="check" class="click-menu">
-                <label for="check" class="icon">
+                <input type="checkbox" hidden id="checkbtn" class="click-show-navlist">
+                <label for="checkbtn" class="icon">
                     <i class="btn-menu fa-solid fa-bars" id="menu-icon"></i>
                 </label>
         </nav>
@@ -108,14 +109,21 @@
                 <br>
                 Bộ phim nào cho bạn cảm hứng?"
             </p>
-            <input class="middle__search" type="text" placeholder="Tìm Kiếm Phim...">
+            <input class="middle__search" id="search" name="search" type="text" placeholder="Tìm Kiếm Phim...">
         </div>
 
+        <ul class="nav-mobile">
+            <li class="nav-mobile-item">Phim hd hot vietsub</li>
+            <li class="nav-mobile-item">phim lẻ</li>
+            <li class="nav-mobile-item">phim bộ</li>
+            <li class="nav-mobile-item">quốc gia</li>
+            <li class="nav-mobile-item">thể loại</li>
+        </ul>
     </header>
 
-    <div class="container">
+    <div class="container">`
 
-        <div class="container__wrap">
+        <div id="hot-movie" class="container__wrap">
             <div class="type">
                 <h1 class="type__title">Phim Hot</h1>
                 <p class="type__description">Những bộ phim đang được quan tâm nhiều nhất</p>
@@ -233,7 +241,7 @@
             <button class="btn more">Xem Thêm</button>
         </div>
 
-        <div class="container__wrap">
+        <div id="phimmoi" class="container__wrap">
             <div class="type">
                 <h1 class="type__title">Mới Cập Nhật</h1>
                 <p class="type__description">Được thêm vào gần đây...</p>
@@ -354,5 +362,6 @@
     </div>
 
     <footer class="copyright">THNDEV © 2023</footer>
+    <script src="./main.js"></script>
 </body>
 </html>

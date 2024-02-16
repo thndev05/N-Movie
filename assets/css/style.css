@@ -54,12 +54,19 @@ nav {
     width: 100%;
     position: absolute;
     top: 0;
-    left: 0;
+    /* left: 0; */
     display: flex;
 }
 
 .navbar {
     filter: opacity(100%);
+}
+
+nav.fixed {
+    position: fixed;
+    z-index: 1000;
+    /* top: 0; */
+    /* margin: auto; */
 }
 
 .nav-content {
