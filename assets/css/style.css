@@ -45,16 +45,16 @@ header {
     background-position: center;
     filter: opacity(0.2);
     width: 100%;
+    margin-top: 20px;
 }
 
 /* navbar header */
 nav {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 15%;
     width: 100%;
     position: absolute;
     top: 0;
-    /* left: 0; */
     display: flex;
 }
 
@@ -65,8 +65,7 @@ nav {
 nav.fixed {
     position: fixed;
     z-index: 1000;
-    /* top: 0; */
-    /* margin: auto; */
+    transition: 0.3s;
 }
 
 .nav-content {
@@ -150,7 +149,7 @@ nav.fixed {
 .nav-menu {
     position: absolute;
     list-style: none;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.9);
     top: 32px;
     left: 40px;
     width: 180px;
@@ -196,6 +195,10 @@ nav.fixed {
     font-size: 1.6rem;
     line-height: 2.6rem;
     color: #FFFFFF;
+}
+
+.nav-menu-item > a {
+    width: 100%;
 }
 
 .icon {
