@@ -54,7 +54,7 @@ itemHasMenuEls.forEach(function (item) {
 //fix scope nav-item in nav-menu
 navMenuItems.forEach(function (item) {
   const navigatedURL = 
-  item.querySelector('a').href;
+  document.URL + 'none.html';
 
   item.addEventListener('click', function (e) {
     e.preventDefault();
